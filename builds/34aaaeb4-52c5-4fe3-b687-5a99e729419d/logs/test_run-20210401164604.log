@@ -1,0 +1,18 @@
+2021-04-01 12:46:04,986 INFO     test_ai_mod.carbon_tasks.regress_app_task -- Logging crawl output to /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/logs/test_run-20210401164604.log
+2021-04-01 12:46:04,987 INFO     test_ai_mod.carbon_tasks.regress_app_task -- regressing app: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, build: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-04-01 12:46:04,987 INFO     test_ai_mod.carbon_tasks.regress_app_task -- max_steps: 10
+2021-04-01 12:46:04,987 INFO     test_ai_mod.carbon_tasks.regress_app_task -- rand_seed: 1617127147
+2021-04-01 12:46:04,987 INFO     test_ai_mod.carbon_tasks.regress_app_task -- test_wildcard: *
+2021-04-01 12:46:04,987 INFO     test_ai_mod.carbon_tasks.regress_app_task -- package: None
+2021-04-01 12:46:04,987 INFO     test_ai_mod.carbon_tasks.regress_app_task -- eyes_api_key: None
+2021-04-01 12:46:04,987 INFO     test_ai_mod.carbon_tasks.regress_app_task -- no_reinstall: False
+2021-04-01 12:46:04,988 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-04-01 12:46:05,037 ERROR    test_ai_mod.carbon_tasks.regress_app_task -- 'type'
+Traceback (most recent call last):
+  File "test_ai_mod/carbon_tasks/regress_app_task.py", line 232, in regress_app_task.regress_app
+  File "test_ai_mod/carbon_tasks/regress_app_task.py", line 65, in regress_app_task._regress_app
+  File "test_ai_mod/carbon_test_case/carbon_tests.py", line 114, in carbon_tests.get_test_case_list
+  File "test_ai_mod/carbon_test_case/test_importing.py", line 16, in test_importing.expand_test
+  File "test_ai_mod/carbon_test_case/test_importing.py", line 28, in test_importing._get_expanded_steps
+KeyError: 'type'
+2021-04-01 12:46:05,038 INFO     test_ai_mod.carbon_tasks.regress_app_task -- Removing threaded log file handler for test run.

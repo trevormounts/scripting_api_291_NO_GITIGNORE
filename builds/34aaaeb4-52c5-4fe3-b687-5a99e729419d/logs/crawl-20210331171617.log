@@ -1,0 +1,585 @@
+2021-03-31 13:16:17,764 INFO     test_ai_mod.carbon_controllers.crawls -- Logging crawl output to /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/logs/crawl-20210331171617.log
+2021-03-31 13:16:17,765 INFO     test_ai_mod.carbon_tasks.crawl_build_task -- crawling build, app_id: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, build_id: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:17,765 INFO     test_ai_mod.carbon_tasks.crawl_build_task -- num_steps (when no test): 25
+2021-03-31 13:16:17,766 INFO     test_ai_mod.carbon_tasks.crawl_build_task -- max_steps: 150
+2021-03-31 13:16:17,766 INFO     test_ai_mod.carbon_tasks.crawl_build_task -- max_iterations: 1
+2021-03-31 13:16:17,766 INFO     test_ai_mod.carbon_tasks.crawl_build_task -- rand_seed: 1617127147
+2021-03-31 13:16:17,766 INFO     test_ai_mod.carbon_tasks.crawl_build_task -- test_wildcard: *
+2021-03-31 13:16:17,766 INFO     test_ai_mod.carbon_tasks.crawl_build_task -- package: None
+2021-03-31 13:16:17,766 INFO     test_ai_mod.carbon_tasks.crawl_build_task -- eyes_api_key: None
+2021-03-31 13:16:17,766 INFO     test_ai_mod.carbon_tasks.crawl_build_task -- is_noop: False
+2021-03-31 13:16:17,768 INFO     test_ai_mod.carbon_tasks.crawl_build_task -- created crawl, id: 20210331131617
+2021-03-31 13:16:17,768 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:17,768 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:17,769 INFO     test_ai_mod.carbon_explore.explore -- using default extra walk count: 0
+2021-03-31 13:16:17,774 INFO     test_ai_mod.carbon_tasks.crawl_build_task -- initiating walk [1/1]
+2021-03-31 13:16:17,774 INFO     test_ai_mod.carbon_test_case.carbon_tests -- initial number of steps for walk: 25
+2021-03-31 13:16:17,774 INFO     test_ai_mod.carbon_tasks.crawl_build_task -- effective_max_steps this walk: 26
+2021-03-31 13:16:17,774 INFO     test_ai_mod.carbon_explore.explore -- **************************************************
+2021-03-31 13:16:17,774 INFO     test_ai_mod.carbon_explore.explore -- **************************************************
+2021-03-31 13:16:17,774 INFO     test_ai_mod.carbon_explore.explore -- *                                                *
+2021-03-31 13:16:17,774 INFO     test_ai_mod.carbon_explore.explore -- *                   BRAIN                    *
+2021-03-31 13:16:17,774 INFO     test_ai_mod.carbon_explore.explore -- *                                                *
+2021-03-31 13:16:17,774 INFO     test_ai_mod.carbon_explore.explore -- **************************************************
+2021-03-31 13:16:17,775 INFO     test_ai_mod.carbon_explore.explore -- **************************************************
+2021-03-31 13:16:17,775 INFO     test_ai_mod.carbon_initialization.initialization -- Random seed: 1617127147
+2021-03-31 13:16:17,776 INFO     test_ai_mod.carbon_initialization.initialization -- ````````````````````````````````````````````````````````````````````````````````
+2021-03-31 13:16:17,776 INFO     test_ai_mod.carbon_initialization.initialization --                   PACKAGE: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33
+2021-03-31 13:16:17,776 INFO     test_ai_mod.carbon_initialization.initialization -- ````````````````````````````````````````````````````````````````````````````````
+2021-03-31 13:16:17,776 INFO     test_ai_mod.carbon_initialization.initialization -- platform: DESKTOP_CHROME
+2021-03-31 13:16:17,776 INFO     test_ai_mod.carbon_initialization.initialization -- using crawl_directory: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617
+2021-03-31 13:16:17,777 INFO     test_ai_mod.carbon_botio.bot_io -- retrieving bot IO for app: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33
+2021-03-31 13:16:17,777 INFO     test_ai_mod.carbon_botio.bot_io -- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021-03-31 13:16:17,777 INFO     test_ai_mod.carbon_botio.bot_io -- botio_filepath: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/botio.json
+2021-03-31 13:16:17,777 INFO     test_ai_mod.carbon_botio.bot_io -- use_snapshot: False
+2021-03-31 13:16:17,777 INFO     test_ai_mod.carbon_botio.bot_io -- no botIO found for app: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33
+2021-03-31 13:16:17,778 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-31 13:16:17,778 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "screens" models list
+2021-03-31 13:16:17,778 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-31 13:16:17,778 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "elems" models list
+2021-03-31 13:16:17,779 INFO     test_ai_mod.carbon_explore.test_hooks -- Test case is None, no need for on_setup.
+2021-03-31 13:16:17,779 INFO     test_ai_mod.carbon_utils.simulator_tools -- preparing clean iteration state...
+2021-03-31 13:16:17,780 INFO     test_ai_mod.carbon_utils.simulator_tools -- starting appium
+2021-03-31 13:16:17,780 INFO     test_ai_mod.carbon_utils.simulator_tools -- starting appium, platform: DESKTOP_CHROME
+2021-03-31 13:16:17,780 INFO     test_ai_mod.carbon_utils.simulator_tools -- starting appium/webdriver for desktop chrome
+2021-03-31 13:16:17,821 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:19,182 INFO     test_ai_mod.carbon_utils.simulator_tools -- going to http://www.blogen-inc.surge.sh
+2021-03-31 13:16:20,186 INFO     test_ai_mod.carbon_utils.simulator_tools -- completed setting url, additional time: 1.003889
+2021-03-31 13:16:21,051 INFO     test_ai_mod.carbon_initialization.initialization -- starting dom stability
+2021-03-31 13:16:21,051 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-31 13:16:21,458 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/tmp/runtime_labeling_screen.png
+2021-03-31 13:16:21,603 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-31 13:16:22,000 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/tmp/runtime_labeling_screen.png
+2021-03-31 13:16:22,139 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-31 13:16:22,529 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/tmp/runtime_labeling_screen.png
+2021-03-31 13:16:22,675 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-31 13:16:23,059 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/tmp/runtime_labeling_screen.png
+2021-03-31 13:16:23,198 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-31 13:16:23,582 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/tmp/runtime_labeling_screen.png
+2021-03-31 13:16:23,724 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-31 13:16:24,131 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/tmp/runtime_labeling_screen.png
+2021-03-31 13:16:24,167 INFO     test_ai_mod.carbon_actions.carbon_actions -- Seen the same screen the max amount (5)
+2021-03-31 13:16:24,168 INFO     test_ai_mod.carbon_actions.carbon_actions -- incrementing source count to: 1
+2021-03-31 13:16:24,168 INFO     test_ai_mod.carbon_initialization.initialization -- current package sent in as: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33
+2021-03-31 13:16:24,168 INFO     test_ai_mod.carbon_initialization.initialization -- ended dom stability
+2021-03-31 13:16:24,170 INFO     test_ai_mod.carbon_explore.explore -- package is set to: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33
+2021-03-31 13:16:24,170 INFO     test_ai_mod.carbon_explore.explore -- ********************************************************************************
+2021-03-31 13:16:24,170 INFO     test_ai_mod.carbon_explore.explore -- * TIMEOUT: None
+2021-03-31 13:16:24,171 INFO     test_ai_mod.carbon_explore.explore -- * disable_bounceback: False
+2021-03-31 13:16:24,171 INFO     test_ai_mod.carbon_explore.explore -- ********************************************************************************
+2021-03-31 13:16:24,171 INFO     test_ai_mod.carbon_explore.explore -- getting walk queue
+2021-03-31 13:16:24,171 INFO     test_ai_mod.carbon_explore.explore_utils -- getting screen_elems
+2021-03-31 13:16:24,260 INFO     test_ai_mod.carbon_utils.scrape_utils -- Successfully collected web scrape.
+2021-03-31 13:16:24,261 INFO     test_ai_mod.carbon_explore.explore_utils -- filtering elems - 33
+2021-03-31 13:16:24,275 INFO     test_ai_mod.carbon_explore.explore_utils -- saving info - 28
+2021-03-31 13:16:24,275 INFO     test_ai_mod.carbon_explore.explore_utils -- saving core elems iter: 0, step 0, save_dir: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617
+2021-03-31 13:16:24,282 INFO     test_ai_mod.carbon_explore.explore -- got all screen info saved
+2021-03-31 13:16:24,283 INFO     test_ai_mod.carbon_explore.explore_utils -- saving core elems iter: 0, step 0, save_dir: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617
+2021-03-31 13:16:24,297 INFO     test_ai_mod.carbon_explore.result_storage -- LOG FILE PATH: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/iter_00000_step_00000_logs.txt
+2021-03-31 13:16:24,298 INFO     test_ai_mod.carbon_explore.result_storage -- ALL LOGS FILE PATH: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/iter_00000_step_-0001_logs.txt
+2021-03-31 13:16:24,306 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- start_interactive_loop starting.
+2021-03-31 13:16:24,318 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- running initial auto label
+2021-03-31 13:16:24,319 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- processing crawl: 20210331131617 (app: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, build: 34aaaeb4-52c5-4fe3-b687-5a99e729419d)
+2021-03-31 13:16:24,319 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- processing screens for crawl
+2021-03-31 13:16:24,362 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing unique screens file
+2021-03-31 13:16:24,362 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing screen hash map
+2021-03-31 13:16:24,365 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing screen similarity file
+2021-03-31 13:16:24,365 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- processing elements for crawl
+2021-03-31 13:16:24,367 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- processing: iter_00000_step_00000_info.json
+2021-03-31 13:16:24,451 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- Writing unique tags file.
+2021-03-31 13:16:24,451 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing unique elems file
+2021-03-31 13:16:24,452 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing elem hash map
+2021-03-31 13:16:24,456 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing elem similarity file
+2021-03-31 13:16:24,457 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- generating labeler objects file for crawl (v0)
+2021-03-31 13:16:24,463 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- reconciling screens labeled at runtime
+2021-03-31 13:16:24,463 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- reconciling elements labeled at runtime
+2021-03-31 13:16:24,467 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- generating auto labels for crawl: 20210331131617, app_id: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, build_id: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,468 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,469 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,470 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,472 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,474 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,475 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,476 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,477 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,478 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,479 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,481 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,483 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,484 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,488 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:24,633 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210326132015/labels/suggested_labels.json
+2021-03-31 13:16:24,640 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210329185904/labels/suggested_labels.json
+2021-03-31 13:16:24,650 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210329204334/labels/suggested_labels.json
+2021-03-31 13:16:24,680 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210326005538/labels/suggested_labels.json
+2021-03-31 13:16:24,692 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210330224318/labels/suggested_labels.json
+2021-03-31 13:16:24,713 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210330174608/labels/suggested_labels.json
+2021-03-31 13:16:24,722 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331083208/labels/suggested_labels.json
+2021-03-31 13:16:24,722 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210329183102/labels/suggested_labels.json
+2021-03-31 13:16:24,741 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210329092700/labels/suggested_labels.json
+2021-03-31 13:16:24,752 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210325235334/labels/suggested_labels.json
+2021-03-31 13:16:24,753 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/labels/suggested_labels.json
+2021-03-31 13:16:24,771 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210326105946/labels/suggested_labels.json
+2021-03-31 13:16:24,780 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210330161507/labels/suggested_labels.json
+2021-03-31 13:16:24,793 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing applied hashes to labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/hashes_to_labels.json
+2021-03-31 13:16:24,795 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing applied human readable to labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/human_readable_to_labels.json
+2021-03-31 13:16:24,797 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing label to hash dicts to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/label_to_hash_dicts.json
+2021-03-31 13:16:24,798 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing human readable to paths to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/human_readable_to_paths.json
+2021-03-31 13:16:24,801 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin loading configured modules
+2021-03-31 13:16:24,801 INFO     test_ai_mod.carbon_classifiers.carbon_classifier_v1.screen_classifier -- Loading ScreenClassifier
+2021-03-31 13:16:24,801 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Loading AppSpecificTemplateMatcher
+2021-03-31 13:16:24,801 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Loading NNClassifier
+2021-03-31 13:16:24,801 INFO     test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- Loading TemplateMatchingClassifier
+2021-03-31 13:16:24,801 WARNING  test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- No template director exists at /Users/bot/test_ai/templates
+2021-03-31 13:16:24,801 INFO     test_ai_mod.carbon_classifiers.http_classifier.http_classifier -- Loaded Http Classifier for ""
+2021-03-31 13:16:24,802 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- classifying 1 unique screens
+2021-03-31 13:16:24,802 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-31 13:16:24,802 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "screens" models list
+2021-03-31 13:16:24,802 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-31 13:16:24,802 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "elems" models list
+2021-03-31 13:16:24,803 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin labeling elements
+2021-03-31 13:16:24,811 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Classifying screen with AppSpecificTemplateMatcher
+2021-03-31 13:16:24,811 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Classifying screen with NNClassifier
+2021-03-31 13:16:24,835 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- End labeling elements: Time taken 0.0317070484161 seconds
+2021-03-31 13:16:24,835 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- classifying 28 unique elems
+2021-03-31 13:16:24,838 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-31 13:16:24,838 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "screens" models list
+2021-03-31 13:16:24,838 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-31 13:16:24,838 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "elems" models list
+2021-03-31 13:16:24,838 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin labeling elements
+2021-03-31 13:16:24,847 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Classifying screen with AppSpecificTemplateMatcher
+2021-03-31 13:16:24,847 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Classifying screen with NNClassifier
+2021-03-31 13:16:24,900 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_find_element, score: 1.0
+2021-03-31 13:16:24,906 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_verify, score: 1.0
+2021-03-31 13:16:24,914 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_profile, score: 1.0
+2021-03-31 13:16:24,918 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_home, score: 1.0
+2021-03-31 13:16:24,918 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_input_param, score: 1.0
+2021-03-31 13:16:24,921 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_wait, score: 1.0
+2021-03-31 13:16:24,922 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_tap_param, score: 1.0
+2021-03-31 13:16:24,923 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_logout, score: 1.0
+2021-03-31 13:16:24,924 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_basic_gestures, score: 1.0
+2021-03-31 13:16:24,932 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- End labeling elements: Time taken 0.0939950942993 seconds
+2021-03-31 13:16:24,934 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/labels/suggested_labels.json
+2021-03-31 13:16:24,935 INFO     test_ai_mod.carbon_explore.interactive -- 
+
+
+[32;1mCarbon Interactive Crawling Session Starting...
+Please make sure you are running the test.ai GUI (./test.ai -d).
+Once the GUI is running, please visit [34mhttp://localhost:5000[32;1m.
+To access the interactive session, select the correct app, and click on "Live Labeling".
+
+[0m
+2021-03-31 13:16:34,651 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- start
+2021-03-31 13:16:34,651 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- end
+2021-03-31 13:16:34,656 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- get_crawls(web, 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33) -- start
+2021-03-31 13:16:34,656 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- get_crawls(web, 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33) -- end
+2021-03-31 13:16:34,680 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,704 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- get_labeler_objects -- start
+2021-03-31 13:16:34,704 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- Processing crawl interactively 20210331131617
+2021-03-31 13:16:34,705 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- processing crawl: 20210331131617 (app: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, build: 34aaaeb4-52c5-4fe3-b687-5a99e729419d)
+2021-03-31 13:16:34,705 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- processing screens for crawl
+2021-03-31 13:16:34,741 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing unique screens file
+2021-03-31 13:16:34,741 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing screen hash map
+2021-03-31 13:16:34,743 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing screen similarity file
+2021-03-31 13:16:34,744 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- processing elements for crawl
+2021-03-31 13:16:34,745 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- skipping already processed: iter_00000_step_00000_info.json
+2021-03-31 13:16:34,786 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- Writing unique tags file.
+2021-03-31 13:16:34,786 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing unique elems file
+2021-03-31 13:16:34,787 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing elem hash map
+2021-03-31 13:16:34,790 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing elem similarity file
+2021-03-31 13:16:34,791 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- generating labeler objects file for crawl (v0)
+2021-03-31 13:16:34,797 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- reconciling screens labeled at runtime
+2021-03-31 13:16:34,797 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- reconciling elements labeled at runtime
+2021-03-31 13:16:34,801 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- Generating labels using hash information 20210331131617
+2021-03-31 13:16:34,802 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- get_labeler_objects -- end
+2021-03-31 13:16:34,838 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,849 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,870 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_16_li.png
+2021-03-31 13:16:34,872 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_22_div.png
+2021-03-31 13:16:34,873 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_9_a.png
+2021-03-31 13:16:34,874 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_27_a.png
+2021-03-31 13:16:34,875 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_8_div.png
+2021-03-31 13:16:34,875 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_6_a.png
+2021-03-31 13:16:34,877 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,878 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,879 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,879 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_16_li.png
+2021-03-31 13:16:34,881 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,881 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,882 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_9_a.png
+2021-03-31 13:16:34,883 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_8_div.png
+2021-03-31 13:16:34,883 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,884 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_22_div.png
+2021-03-31 13:16:34,885 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_27_a.png
+2021-03-31 13:16:34,888 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_11_a.png
+2021-03-31 13:16:34,890 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_6_a.png
+2021-03-31 13:16:34,894 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_7_div.png
+2021-03-31 13:16:34,896 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,895 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,898 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_23_span.png
+2021-03-31 13:16:34,899 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_7_div.png
+2021-03-31 13:16:34,900 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_26_a.png
+2021-03-31 13:16:34,900 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_11_a.png
+2021-03-31 13:16:34,902 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_14_div.png
+2021-03-31 13:16:34,904 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_5_h1.png
+2021-03-31 13:16:34,905 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,907 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,908 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_17_li.png
+2021-03-31 13:16:34,909 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_23_span.png
+2021-03-31 13:16:34,909 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,910 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_26_a.png
+2021-03-31 13:16:34,910 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,911 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_10_a.png
+2021-03-31 13:16:34,913 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_14_div.png
+2021-03-31 13:16:34,914 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_5_h1.png
+2021-03-31 13:16:34,915 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,918 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_12_a.png
+2021-03-31 13:16:34,919 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_17_li.png
+2021-03-31 13:16:34,919 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_20_li.png
+2021-03-31 13:16:34,921 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,922 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_2_i.png
+2021-03-31 13:16:34,923 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_4_li.png
+2021-03-31 13:16:34,924 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_10_a.png
+2021-03-31 13:16:34,924 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,926 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,927 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_12_a.png
+2021-03-31 13:16:34,928 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_0_li.png
+2021-03-31 13:16:34,928 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,929 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_20_li.png
+2021-03-31 13:16:34,930 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,931 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_2_i.png
+2021-03-31 13:16:34,932 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_3_div.png
+2021-03-31 13:16:34,935 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_4_li.png
+2021-03-31 13:16:34,935 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,936 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,937 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_0_li.png
+2021-03-31 13:16:34,939 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_3_div.png
+2021-03-31 13:16:34,940 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_24_i.png
+2021-03-31 13:16:34,941 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_18_i.png
+2021-03-31 13:16:34,944 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_1_li.png
+2021-03-31 13:16:34,946 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_13_a.png
+2021-03-31 13:16:34,947 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_21_div.png
+2021-03-31 13:16:34,948 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,948 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,949 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,950 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_24_i.png
+2021-03-31 13:16:34,951 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_15_li.png
+2021-03-31 13:16:34,951 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,952 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_18_i.png
+2021-03-31 13:16:34,952 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_1_li.png
+2021-03-31 13:16:34,952 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,954 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_13_a.png
+2021-03-31 13:16:34,956 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_21_div.png
+2021-03-31 13:16:34,958 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_19_li.png
+2021-03-31 13:16:34,959 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,960 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_15_li.png
+2021-03-31 13:16:34,961 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_25_a.png
+2021-03-31 13:16:34,963 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,964 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_19_li.png
+2021-03-31 13:16:34,964 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:34,964 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00000_25_a.png
+2021-03-31 13:16:34,982 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:37,741 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00000_screenshot.png
+2021-03-31 13:16:37,742 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:37,742 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/screens/iter_00000_step_00000_screenshot.png
+2021-03-31 13:16:49,655 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- start
+2021-03-31 13:16:49,655 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- end
+2021-03-31 13:16:50,755 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- run_step -- start
+2021-03-31 13:16:50,755 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- get labels for crawl 20210331131617
+2021-03-31 13:16:50,756 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:50,757 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- get labeler objects for crawl 20210331131617
+2021-03-31 13:16:50,757 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- Executing interactive step for crawl 20210331131617
+2021-03-31 13:16:50,757 INFO     test_ai_mod.carbon_explore.explore_hook -- Explore hook -- perform_test_step starting.
+2021-03-31 13:16:50,758 INFO     test_ai_mod.carbon_explore.explore_hook -- Explore hook -- _get_screen_info_hook starting.
+2021-03-31 13:16:50,758 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-31 13:16:51,166 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/tmp/runtime_labeling_screen.png
+2021-03-31 13:16:51,166 INFO     test_ai_mod.carbon_explore.explore_utils -- getting screen_elems
+2021-03-31 13:16:51,281 INFO     test_ai_mod.carbon_utils.scrape_utils -- Successfully collected web scrape.
+2021-03-31 13:16:51,282 INFO     test_ai_mod.carbon_explore.explore_utils -- filtering elems - 47
+2021-03-31 13:16:51,294 INFO     test_ai_mod.carbon_explore.explore_utils -- saving info - 39
+2021-03-31 13:16:51,295 INFO     test_ai_mod.carbon_explore.explore_utils -- saving core elems iter: 0, step 1, save_dir: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617
+2021-03-31 13:16:51,306 INFO     test_ai_mod.carbon_explore.explore_hook -- Explore hook -- _get_screen_info_hook completed.
+2021-03-31 13:16:51,306 INFO     test_ai_mod.carbon_explore.explore_hook -- Explore hook -- _get_labels_for_screen starting on [].
+2021-03-31 13:16:51,306 INFO     test_ai_mod.carbon_explore.explore_hook -- Explore hook -- Found labels: {'elem_labels': [], 'all_labels': [], 'screen_labels': []}
+2021-03-31 13:16:51,306 INFO     test_ai_mod.carbon_explore.explore_hook -- Explore hook -- get_labels_for_screen completed.
+2021-03-31 13:16:51,307 INFO     test_ai_mod.carbon_explore.explore_hook -- saving step
+2021-03-31 13:16:51,307 INFO     test_ai_mod.carbon_explore.explore_utils -- saving core elems iter: 0, step 1, save_dir: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617
+2021-03-31 13:16:51,328 INFO     test_ai_mod.carbon_explore.result_storage -- LOG FILE PATH: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/iter_00000_step_00001_logs.txt
+2021-03-31 13:16:51,328 INFO     test_ai_mod.carbon_explore.result_storage -- ALL LOGS FILE PATH: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/iter_00000_step_-0001_logs.txt
+2021-03-31 13:16:51,334 INFO     test_ai_mod.carbon_explore.explore_hook -- step saved
+2021-03-31 13:16:51,335 INFO     test_ai_mod.carbon_explore.explore_hook -- Explore hook -- _perform_element_action starting.
+2021-03-31 13:16:51,335 INFO     test_ai_mod.carbon_explore.explore_hook -- Explore hook -- perform_element_action completed.
+2021-03-31 13:16:51,335 INFO     test_ai_mod.carbon_explore.explore_hook -- Explore hook -- perform_test_step completed.
+2021-03-31 13:16:51,335 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- Get labeler objects for crawl 20210331131617
+2021-03-31 13:16:51,335 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- get_labeler_objects -- start
+2021-03-31 13:16:51,335 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- Processing crawl interactively 20210331131617
+2021-03-31 13:16:51,335 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- processing crawl: 20210331131617 (app: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, build: 34aaaeb4-52c5-4fe3-b687-5a99e729419d)
+2021-03-31 13:16:51,335 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- processing screens for crawl
+2021-03-31 13:16:51,367 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing unique screens file
+2021-03-31 13:16:51,367 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing screen hash map
+2021-03-31 13:16:51,371 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing screen similarity file
+2021-03-31 13:16:51,372 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- processing elements for crawl
+2021-03-31 13:16:51,374 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- processing: iter_00000_step_00001_info.json
+2021-03-31 13:16:51,385 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- skipping already processed: iter_00000_step_00000_info.json
+2021-03-31 13:16:51,511 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- Writing unique tags file.
+2021-03-31 13:16:51,512 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing unique elems file
+2021-03-31 13:16:51,512 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing elem hash map
+2021-03-31 13:16:51,519 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing elem similarity file
+2021-03-31 13:16:51,520 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- generating labeler objects file for crawl (v0)
+2021-03-31 13:16:51,531 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- reconciling screens labeled at runtime
+2021-03-31 13:16:51,532 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- reconciling elements labeled at runtime
+2021-03-31 13:16:51,537 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- Generating labels using hash information 20210331131617
+2021-03-31 13:16:51,539 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- get_labeler_objects -- end
+2021-03-31 13:16:51,540 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- generating auto labels for crawl: 20210331131617, app_id: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, build_id: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,541 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,541 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,542 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,542 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,543 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,544 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,544 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,545 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,545 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,546 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,546 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,547 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,547 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,548 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,649 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210326132015/labels/suggested_labels.json
+2021-03-31 13:16:51,665 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210329204334/labels/suggested_labels.json
+2021-03-31 13:16:51,692 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210326005538/labels/suggested_labels.json
+2021-03-31 13:16:51,696 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210330224318/labels/suggested_labels.json
+2021-03-31 13:16:51,702 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210329185904/labels/suggested_labels.json
+2021-03-31 13:16:51,711 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210330174608/labels/suggested_labels.json
+2021-03-31 13:16:51,712 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210329183102/labels/suggested_labels.json
+2021-03-31 13:16:51,730 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210329092700/labels/suggested_labels.json
+2021-03-31 13:16:51,736 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210330161507/labels/suggested_labels.json
+2021-03-31 13:16:51,751 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210326105946/labels/suggested_labels.json
+2021-03-31 13:16:51,764 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210325235334/labels/suggested_labels.json
+2021-03-31 13:16:51,769 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331083208/labels/suggested_labels.json
+2021-03-31 13:16:51,771 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/labels/suggested_labels.json
+2021-03-31 13:16:51,784 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing applied hashes to labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/hashes_to_labels.json
+2021-03-31 13:16:51,786 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing applied human readable to labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/human_readable_to_labels.json
+2021-03-31 13:16:51,787 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing label to hash dicts to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/label_to_hash_dicts.json
+2021-03-31 13:16:51,788 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing human readable to paths to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/human_readable_to_paths.json
+2021-03-31 13:16:51,790 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin loading configured modules
+2021-03-31 13:16:51,790 INFO     test_ai_mod.carbon_classifiers.carbon_classifier_v1.screen_classifier -- Loading ScreenClassifier
+2021-03-31 13:16:51,790 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Loading AppSpecificTemplateMatcher
+2021-03-31 13:16:51,790 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Loading NNClassifier
+2021-03-31 13:16:51,790 INFO     test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- Loading TemplateMatchingClassifier
+2021-03-31 13:16:51,791 WARNING  test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- No template director exists at /Users/bot/test_ai/templates
+2021-03-31 13:16:51,791 INFO     test_ai_mod.carbon_classifiers.http_classifier.http_classifier -- Loaded Http Classifier for ""
+2021-03-31 13:16:51,791 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- classifying 2 unique screens
+2021-03-31 13:16:51,791 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-31 13:16:51,791 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "screens" models list
+2021-03-31 13:16:51,791 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-31 13:16:51,791 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "elems" models list
+2021-03-31 13:16:51,793 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin labeling elements
+2021-03-31 13:16:51,802 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Classifying screen with AppSpecificTemplateMatcher
+2021-03-31 13:16:51,803 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Classifying screen with NNClassifier
+2021-03-31 13:16:51,827 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- End labeling elements: Time taken 0.0344290733337 seconds
+2021-03-31 13:16:51,828 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- classifying 39 unique elems
+2021-03-31 13:16:51,831 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-31 13:16:51,832 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "screens" models list
+2021-03-31 13:16:51,832 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-31 13:16:51,832 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "elems" models list
+2021-03-31 13:16:51,832 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin labeling elements
+2021-03-31 13:16:51,843 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Classifying screen with AppSpecificTemplateMatcher
+2021-03-31 13:16:51,843 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Classifying screen with NNClassifier
+2021-03-31 13:16:51,905 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_find_element, score: 1.0
+2021-03-31 13:16:51,912 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_verify, score: 1.0
+2021-03-31 13:16:51,918 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: btn_open_slow_modal, score: 1.0
+2021-03-31 13:16:51,924 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_profile, score: 1.0
+2021-03-31 13:16:51,929 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_home, score: 1.0
+2021-03-31 13:16:51,930 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_input_param, score: 1.0
+2021-03-31 13:16:51,933 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_wait, score: 1.0
+2021-03-31 13:16:51,935 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_tap_param, score: 1.0
+2021-03-31 13:16:51,936 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_logout, score: 1.0
+2021-03-31 13:16:51,937 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_basic_gestures, score: 1.0
+2021-03-31 13:16:51,947 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- End labeling elements: Time taken 0.114861965179 seconds
+2021-03-31 13:16:51,948 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/labels/suggested_labels.json
+2021-03-31 13:16:51,950 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- get labels for crawl 20210331131617
+2021-03-31 13:16:51,950 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:16:51,951 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- run_step -- end
+2021-03-31 13:16:51,993 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:04,452 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00001_14_button.png
+2021-03-31 13:17:04,454 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00001_15_a.png
+2021-03-31 13:17:04,455 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00001_36_a.png
+2021-03-31 13:17:04,456 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00001_37_a.png
+2021-03-31 13:17:04,457 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00001_16_a.png
+2021-03-31 13:17:04,458 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00001_8_a.png
+2021-03-31 13:17:04,460 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:04,460 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:04,461 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:04,461 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00001_14_button.png
+2021-03-31 13:17:04,461 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:04,462 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00001_37_a.png
+2021-03-31 13:17:04,462 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:04,462 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:04,463 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00001_16_a.png
+2021-03-31 13:17:04,465 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00001_15_a.png
+2021-03-31 13:17:04,465 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00001_8_a.png
+2021-03-31 13:17:04,468 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00001_36_a.png
+2021-03-31 13:17:04,473 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00001_12_a.png
+2021-03-31 13:17:04,476 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:04,477 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00001_12_a.png
+2021-03-31 13:17:04,478 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00001_11_a.png
+2021-03-31 13:17:04,480 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00001_38_a.png
+2021-03-31 13:17:04,482 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00001_17_a.png
+2021-03-31 13:17:04,483 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00001_5_button.png
+2021-03-31 13:17:04,484 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:04,485 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00001_11_a.png
+2021-03-31 13:17:04,487 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:04,487 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:04,488 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00001_17_a.png
+2021-03-31 13:17:04,489 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00001_38_a.png
+2021-03-31 13:17:04,490 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:04,492 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/elems/iter_00000_step_00001_5_button.png
+2021-03-31 13:17:04,652 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- start
+2021-03-31 13:17:04,653 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- end
+2021-03-31 13:17:05,567 INFO     test_ai_mod.labeler.v1.crawls -- elem image requested, crawl: 20210331131617, filename: iter_00000_step_00001_screenshot.png
+2021-03-31 13:17:05,567 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:05,568 INFO     test_ai_mod.labeler.v1.crawls -- resolved to: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/screens/iter_00000_step_00001_screenshot.png
+2021-03-31 13:17:22,762 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- start
+2021-03-31 13:17:22,762 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- end
+2021-03-31 13:17:34,651 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- start
+2021-03-31 13:17:34,651 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- end
+2021-03-31 13:17:38,268 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:38,268 INFO     test_ai_mod.labeler.v1.crawls -- labels_info:{u'screens': {}, u'elems': {u'iter_00000_step_00001_5_button.png': [u'btn_template_match']}}
+2021-03-31 13:17:38,269 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:38,290 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:17:51,961 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- start
+2021-03-31 13:17:51,961 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- end
+2021-03-31 13:18:06,436 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- start
+2021-03-31 13:18:06,436 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- end
+2021-03-31 13:18:23,493 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- start
+2021-03-31 13:18:23,493 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- end
+2021-03-31 13:18:40,437 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- start
+2021-03-31 13:18:40,437 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- end
+2021-03-31 13:18:50,460 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- start
+2021-03-31 13:18:50,460 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- end
+2021-03-31 13:19:04,654 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- start
+2021-03-31 13:19:04,654 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- end
+2021-03-31 13:19:08,994 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- start
+2021-03-31 13:19:08,994 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- end
+2021-03-31 13:19:08,999 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- start
+2021-03-31 13:19:08,999 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- status -- end
+2021-03-31 13:19:09,001 INFO     root -- Stopping interactive crawl.
+2021-03-31 13:19:09,005 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- stop -- start
+2021-03-31 13:19:09,006 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- stop -- stop
+2021-03-31 13:19:09,513 INFO     test_ai_mod.carbon_explore.explore_hook -- Explore hook -- apply_deferred_runtime_labels starting.
+2021-03-31 13:19:09,514 INFO     test_ai_mod.carbon_explore.explore_hook -- Explore hook -- apply_deferred_runtime_labels completed.
+2021-03-31 13:19:09,514 INFO     test_ai_mod.carbon_explore.interactive -- Interactive explore -- start_interactive_loop completed.
+2021-03-31 13:19:09,514 INFO     test_ai_mod.carbon_explore.explore -- performing post-walk cleanup
+2021-03-31 13:19:09,515 INFO     test_ai_mod.carbon_utils.simulator_tools -- performing post-test cleanup
+2021-03-31 13:19:09,515 INFO     test_ai_mod.carbon_utils.simulator_tools -- calling driver.quit
+2021-03-31 13:19:09,685 INFO     test_ai_mod.carbon_explore.explore -- iteration completed: 0
+2021-03-31 13:19:09,685 INFO     test_ai_mod.carbon_tasks.crawl_build_task -- walk: 1 - succeeded
+2021-03-31 13:19:09,686 INFO     test_ai_mod.carbon_tasks.crawl_build_task -- Handling crawl stop request.
+2021-03-31 13:19:09,686 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,687 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,687 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,688 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,688 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,689 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,690 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,690 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,691 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,691 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,692 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,692 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,693 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,694 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,694 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- processing crawl: 20210331131617 (app: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, build: 34aaaeb4-52c5-4fe3-b687-5a99e729419d)
+2021-03-31 13:19:09,694 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- processing screens for crawl
+2021-03-31 13:19:09,738 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing unique screens file
+2021-03-31 13:19:09,738 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing screen hash map
+2021-03-31 13:19:09,742 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing screen similarity file
+2021-03-31 13:19:09,742 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- processing elements for crawl
+2021-03-31 13:19:09,744 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- skipping already processed: iter_00000_step_00001_info.json
+2021-03-31 13:19:09,745 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- skipping already processed: iter_00000_step_00000_info.json
+2021-03-31 13:19:09,821 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- Writing unique tags file.
+2021-03-31 13:19:09,822 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing unique elems file
+2021-03-31 13:19:09,822 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing elem hash map
+2021-03-31 13:19:09,828 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- writing elem similarity file
+2021-03-31 13:19:09,829 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- generating and saving feature data for crawl
+2021-03-31 13:19:09,830 INFO     test_ai_mod.carbon_tasks.generate_feature_data_task -- generating feature data for crawl: 20210331131617, app_id: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, build_id: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:09,831 INFO     test_ai_mod.carbon_tasks.generate_feature_data_task -- generating screen feature data
+2021-03-31 13:19:10,238 INFO     test_ai_mod.carbon_tasks.generate_feature_data_task -- saving screen feature data
+2021-03-31 13:19:10,240 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- generating labeler objects file for crawl (v0)
+2021-03-31 13:19:10,254 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- reconciling screens labeled at runtime
+2021-03-31 13:19:10,254 INFO     test_ai_mod.carbon_tasks.process_crawl_task -- reconciling elements labeled at runtime
+2021-03-31 13:19:10,260 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- generating auto labels for crawl: 20210331131617, app_id: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, build_id: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,261 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,264 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,264 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,265 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,265 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,266 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,267 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,271 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,272 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,272 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,273 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,274 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,274 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,275 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 13:19:10,383 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210326132015/labels/suggested_labels.json
+2021-03-31 13:19:10,402 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210329204334/labels/suggested_labels.json
+2021-03-31 13:19:10,410 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210329185904/labels/suggested_labels.json
+2021-03-31 13:19:10,450 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210330174608/labels/suggested_labels.json
+2021-03-31 13:19:10,453 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210329183102/labels/suggested_labels.json
+2021-03-31 13:19:10,460 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210326005538/labels/suggested_labels.json
+2021-03-31 13:19:10,465 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210330224318/labels/suggested_labels.json
+2021-03-31 13:19:10,487 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210329092700/labels/suggested_labels.json
+2021-03-31 13:19:10,487 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210325235334/labels/suggested_labels.json
+2021-03-31 13:19:10,521 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331083208/labels/suggested_labels.json
+2021-03-31 13:19:10,524 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210326105946/labels/suggested_labels.json
+2021-03-31 13:19:10,535 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210330161507/labels/suggested_labels.json
+2021-03-31 13:19:10,537 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/labels/suggested_labels.json
+2021-03-31 13:19:10,544 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing applied hashes to labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/hashes_to_labels.json
+2021-03-31 13:19:10,545 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing applied human readable to labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/human_readable_to_labels.json
+2021-03-31 13:19:10,547 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing label to hash dicts to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/label_to_hash_dicts.json
+2021-03-31 13:19:10,548 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing human readable to paths to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/human_readable_to_paths.json
+2021-03-31 13:19:10,551 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin loading configured modules
+2021-03-31 13:19:10,551 INFO     test_ai_mod.carbon_classifiers.carbon_classifier_v1.screen_classifier -- Loading ScreenClassifier
+2021-03-31 13:19:10,551 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Loading AppSpecificTemplateMatcher
+2021-03-31 13:19:10,551 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Loading NNClassifier
+2021-03-31 13:19:10,551 INFO     test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- Loading TemplateMatchingClassifier
+2021-03-31 13:19:10,551 WARNING  test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- No template director exists at /Users/bot/test_ai/templates
+2021-03-31 13:19:10,551 INFO     test_ai_mod.carbon_classifiers.http_classifier.http_classifier -- Loaded Http Classifier for ""
+2021-03-31 13:19:10,551 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- classifying 2 unique screens
+2021-03-31 13:19:10,551 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-31 13:19:10,551 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "screens" models list
+2021-03-31 13:19:10,552 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-31 13:19:10,552 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "elems" models list
+2021-03-31 13:19:10,553 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin labeling elements
+2021-03-31 13:19:10,563 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Classifying screen with AppSpecificTemplateMatcher
+2021-03-31 13:19:10,563 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Classifying screen with NNClassifier
+2021-03-31 13:19:10,589 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- End labeling elements: Time taken 0.0352640151978 seconds
+2021-03-31 13:19:10,590 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin labeling elements
+2021-03-31 13:19:10,599 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Classifying screen with AppSpecificTemplateMatcher
+2021-03-31 13:19:10,599 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Classifying screen with NNClassifier
+2021-03-31 13:19:10,621 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- End labeling elements: Time taken 0.0302448272705 seconds
+2021-03-31 13:19:10,621 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- classifying 47 unique elems
+2021-03-31 13:19:10,625 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-31 13:19:10,625 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "screens" models list
+2021-03-31 13:19:10,625 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-31 13:19:10,626 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "elems" models list
+2021-03-31 13:19:10,626 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin labeling elements
+2021-03-31 13:19:10,637 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Classifying screen with AppSpecificTemplateMatcher
+2021-03-31 13:19:10,637 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Classifying screen with NNClassifier
+2021-03-31 13:19:10,713 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_find_element, score: 1.0
+2021-03-31 13:19:10,720 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_verify, score: 1.0
+2021-03-31 13:19:10,731 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: btn_open_slow_modal, score: 1.0
+2021-03-31 13:19:10,735 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: btn_template_match, score: 1.0
+2021-03-31 13:19:10,738 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_profile, score: 1.0
+2021-03-31 13:19:10,743 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_home, score: 1.0
+2021-03-31 13:19:10,745 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_input_param, score: 1.0
+2021-03-31 13:19:10,749 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_wait, score: 1.0
+2021-03-31 13:19:10,752 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_tap_param, score: 1.0
+2021-03-31 13:19:10,753 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_logout, score: 1.0
+2021-03-31 13:19:10,754 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_basic_gestures, score: 1.0
+2021-03-31 13:19:10,766 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- End labeling elements: Time taken 0.139877080917 seconds
+2021-03-31 13:19:10,767 INFO     test_ai_mod.carbon_tasks.generate_auto_labels_task -- writing merged, suggested labels to file: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/crawls/20210331131617/labels/suggested_labels.json
+2021-03-31 13:19:10,769 INFO     test_ai_mod.carbon_controllers.crawls -- Removing threaded log file handler for crawl.

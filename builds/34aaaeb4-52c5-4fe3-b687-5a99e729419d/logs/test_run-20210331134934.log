@@ -1,0 +1,30 @@
+2021-03-31 09:49:34,644 INFO     test_ai_mod.carbon_tasks.regress_app_task -- Logging crawl output to /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/logs/test_run-20210331134934.log
+2021-03-31 09:49:34,644 INFO     test_ai_mod.carbon_tasks.regress_app_task -- regressing app: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, build: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 09:49:34,644 INFO     test_ai_mod.carbon_tasks.regress_app_task -- max_steps: 10
+2021-03-31 09:49:34,644 INFO     test_ai_mod.carbon_tasks.regress_app_task -- rand_seed: 1617127147
+2021-03-31 09:49:34,644 INFO     test_ai_mod.carbon_tasks.regress_app_task -- test_wildcard: *
+2021-03-31 09:49:34,645 INFO     test_ai_mod.carbon_tasks.regress_app_task -- package: None
+2021-03-31 09:49:34,645 INFO     test_ai_mod.carbon_tasks.regress_app_task -- eyes_api_key: None
+2021-03-31 09:49:34,645 INFO     test_ai_mod.carbon_tasks.regress_app_task -- no_reinstall: False
+2021-03-31 09:49:34,645 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-31 09:49:34,661 ERROR    test_ai_mod.carbon_utils.csv_parser -- Error reading from parameters CSV, please check the formating of your CSV and that it is located in the correct folder.
+Traceback (most recent call last):
+  File "test_ai_mod/carbon_utils/csv_parser.py", line 21, in csv_parser.get_csv_dataframe
+  File "/Users/bot/Desktop/test_ai_v2.6.3.app/Contents/Resources/lib/python2.7/pandas/io/parsers.py", line 702, in parser_f
+  File "/Users/bot/Desktop/test_ai_v2.6.3.app/Contents/Resources/lib/python2.7/pandas/io/parsers.py", line 429, in _read
+  File "/Users/bot/Desktop/test_ai_v2.6.3.app/Contents/Resources/lib/python2.7/pandas/io/parsers.py", line 895, in __init__
+  File "/Users/bot/Desktop/test_ai_v2.6.3.app/Contents/Resources/lib/python2.7/pandas/io/parsers.py", line 1122, in _make_engine
+  File "/Users/bot/Desktop/test_ai_v2.6.3.app/Contents/Resources/lib/python2.7/pandas/io/parsers.py", line 1853, in __init__
+  File "pandas/_libs/parsers.pyx", line 387, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 705, in pandas._libs.parsers.TextReader._setup_parser_source
+IOError: [Errno 2] File /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/tests/parameters/tap_params_test.csv does not exist: '/Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/tests/parameters/tap_params_test.csv'
+2021-03-31 09:49:34,661 ERROR    test_ai_mod.carbon_tasks.regress_app_task -- [Errno 2] File /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/tests/parameters/tap_params_test.csv does not exist: '/Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/tests/parameters/tap_params_test.csv'
+Traceback (most recent call last):
+  File "test_ai_mod/carbon_tasks/regress_app_task.py", line 232, in regress_app_task.regress_app
+  File "test_ai_mod/carbon_tasks/regress_app_task.py", line 65, in regress_app_task._regress_app
+  File "test_ai_mod/carbon_test_case/carbon_tests.py", line 119, in carbon_tests.get_test_case_list
+  File "test_ai_mod/carbon_test_case/parameterized_tests.py", line 81, in parameterized_tests.build_parameterized_steps
+  File "test_ai_mod/carbon_test_case/parameterized_tests.py", line 104, in parameterized_tests._build_parameterized_step
+  File "test_ai_mod/carbon_utils/csv_parser.py", line 24, in csv_parser.get_csv_dataframe
+IOError: [Errno 2] File /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/tests/parameters/tap_params_test.csv does not exist: '/Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/tests/parameters/tap_params_test.csv'
+2021-03-31 09:49:34,661 INFO     test_ai_mod.carbon_tasks.regress_app_task -- Removing threaded log file handler for test run.

@@ -1,0 +1,374 @@
+2021-03-29 10:59:17,074 INFO     test_ai_mod.carbon_tasks.regress_app_task -- Logging crawl output to /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/logs/test_run-20210329145917.log
+2021-03-29 10:59:17,074 INFO     test_ai_mod.carbon_tasks.regress_app_task -- regressing app: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, build: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-29 10:59:17,074 INFO     test_ai_mod.carbon_tasks.regress_app_task -- max_steps: 10
+2021-03-29 10:59:17,074 INFO     test_ai_mod.carbon_tasks.regress_app_task -- rand_seed: 1617024331
+2021-03-29 10:59:17,074 INFO     test_ai_mod.carbon_tasks.regress_app_task -- test_wildcard: *
+2021-03-29 10:59:17,074 INFO     test_ai_mod.carbon_tasks.regress_app_task -- package: None
+2021-03-29 10:59:17,074 INFO     test_ai_mod.carbon_tasks.regress_app_task -- eyes_api_key: None
+2021-03-29 10:59:17,074 INFO     test_ai_mod.carbon_tasks.regress_app_task -- no_reinstall: False
+2021-03-29 10:59:17,075 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-29 10:59:17,095 INFO     test_ai_mod.carbon_test_case.test_filtering -- Found test: Bot Basic Gestures All
+2021-03-29 10:59:17,095 INFO     test_ai_mod.carbon_test_case.test_filtering -- Found test: Parameterization - Input - Step Parameterization
+2021-03-29 10:59:17,095 INFO     test_ai_mod.carbon_test_case.test_filtering -- Found test: Parameterization Tap - Simple Tap test
+2021-03-29 10:59:17,095 INFO     test_ai_mod.carbon_test_case.test_filtering -- Found test: practice
+2021-03-29 10:59:17,096 INFO     test_ai_mod.carbon_test_case.test_filtering -- Found test: Basic Gestures - Individual Scripts
+2021-03-29 10:59:17,096 INFO     test_ai_mod.carbon_test_case.test_filtering -- Found test: Parameterization - Input - Simple Form
+2021-03-29 10:59:17,096 INFO     test_ai_mod.carbon_test_case.carbon_tests -- Found matching test: Parameterization - Input - Step Parameterization
+2021-03-29 10:59:17,097 INFO     test_ai_mod.carbon_dao.local_carbon_dao -- Getting build info: APP_ID: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33, BUILD_ID: 34aaaeb4-52c5-4fe3-b687-5a99e729419d
+2021-03-29 10:59:17,097 INFO     test_ai_mod.carbon_tasks.regress_app_task -- Remote host address: 127.0.0.1
+2021-03-29 10:59:17,101 INFO     test_ai_mod.carbon_tasks.regress_app_task -- running regress for test case: Parameterization - Input - Step Parameterization - 8510840e-cc37-49d2-b75f-403dc41913d2
+2021-03-29 10:59:17,101 INFO     test_ai_mod.carbon_tasks.regress_app_task -- steps required for test: 11
+2021-03-29 10:59:17,102 INFO     test_ai_mod.carbon_test_case.carbon_tests -- using hard cap of: 11 steps
+2021-03-29 10:59:17,102 INFO     test_ai_mod.carbon_tasks.regress_app_task -- effective_max_steps: 11
+2021-03-29 10:59:17,102 INFO     test_ai_mod.carbon_explore.explore -- **************************************************
+2021-03-29 10:59:17,102 INFO     test_ai_mod.carbon_explore.explore -- **************************************************
+2021-03-29 10:59:17,102 INFO     test_ai_mod.carbon_explore.explore -- *                                                *
+2021-03-29 10:59:17,102 INFO     test_ai_mod.carbon_explore.explore -- *                   BRAIN                    *
+2021-03-29 10:59:17,102 INFO     test_ai_mod.carbon_explore.explore -- *                                                *
+2021-03-29 10:59:17,102 INFO     test_ai_mod.carbon_explore.explore -- **************************************************
+2021-03-29 10:59:17,102 INFO     test_ai_mod.carbon_explore.explore -- **************************************************
+2021-03-29 10:59:17,102 INFO     test_ai_mod.carbon_initialization.initialization -- Random seed: 1617024331
+2021-03-29 10:59:17,103 INFO     test_ai_mod.carbon_initialization.initialization -- ````````````````````````````````````````````````````````````````````````````````
+2021-03-29 10:59:17,103 INFO     test_ai_mod.carbon_initialization.initialization --                   PACKAGE: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33
+2021-03-29 10:59:17,103 INFO     test_ai_mod.carbon_initialization.initialization -- ````````````````````````````````````````````````````````````````````````````````
+2021-03-29 10:59:17,104 INFO     test_ai_mod.carbon_initialization.initialization -- platform: DESKTOP_CHROME
+2021-03-29 10:59:17,104 INFO     test_ai_mod.carbon_initialization.initialization -- using crawl_directory: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917
+2021-03-29 10:59:17,105 INFO     test_ai_mod.carbon_botio.bot_io -- retrieving bot IO for app: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33
+2021-03-29 10:59:17,106 INFO     test_ai_mod.carbon_botio.bot_io -- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021-03-29 10:59:17,106 INFO     test_ai_mod.carbon_botio.bot_io -- botio_filepath: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/lkg/botio.json
+2021-03-29 10:59:17,106 INFO     test_ai_mod.carbon_botio.bot_io -- use_snapshot: False
+2021-03-29 10:59:17,107 INFO     test_ai_mod.carbon_botio.bot_io -- no botIO found for app: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33
+2021-03-29 10:59:17,110 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-29 10:59:17,110 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "screens" models list
+2021-03-29 10:59:17,110 INFO     test_ai_mod.carbon_utils.carbon_data -- loading models from LKG dir
+2021-03-29 10:59:17,110 INFO     test_ai_mod.carbon_utils.carbon_data -- no models dir found, returning empty "elems" models list
+2021-03-29 10:59:17,111 INFO     test_ai_mod.carbon_utils.simulator_tools -- preparing clean iteration state...
+2021-03-29 10:59:17,111 INFO     test_ai_mod.carbon_utils.simulator_tools -- starting appium
+2021-03-29 10:59:17,111 INFO     test_ai_mod.carbon_utils.simulator_tools -- starting appium, platform: DESKTOP_CHROME
+2021-03-29 10:59:17,111 INFO     test_ai_mod.carbon_utils.simulator_tools -- starting appium/webdriver for desktop chrome
+2021-03-29 10:59:18,034 INFO     test_ai_mod.carbon_utils.simulator_tools -- going to http://www.blogen-inc.surge.sh
+2021-03-29 10:59:18,927 INFO     test_ai_mod.carbon_utils.simulator_tools -- completed setting url, additional time: 0.893632
+2021-03-29 10:59:20,009 INFO     test_ai_mod.carbon_initialization.initialization -- starting dom stability
+2021-03-29 10:59:20,009 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:20,484 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:20,631 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:21,121 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:21,268 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:21,756 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:21,903 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:22,387 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:22,536 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:23,023 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:23,168 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:23,650 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:23,695 INFO     test_ai_mod.carbon_actions.carbon_actions -- Seen the same screen the max amount (5)
+2021-03-29 10:59:23,695 INFO     test_ai_mod.carbon_actions.carbon_actions -- incrementing source count to: 1
+2021-03-29 10:59:23,696 INFO     test_ai_mod.carbon_initialization.initialization -- current package sent in as: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33
+2021-03-29 10:59:23,696 INFO     test_ai_mod.carbon_initialization.initialization -- ended dom stability
+2021-03-29 10:59:23,698 INFO     test_ai_mod.carbon_explore.explore -- package is set to: 60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33
+2021-03-29 10:59:23,699 INFO     test_ai_mod.carbon_explore.explore -- ********************************************************************************
+2021-03-29 10:59:23,699 INFO     test_ai_mod.carbon_explore.explore -- * TIMEOUT: None
+2021-03-29 10:59:23,699 INFO     test_ai_mod.carbon_explore.explore -- * beginning step: 0, test completed: False, total steps: 10
+2021-03-29 10:59:23,699 INFO     test_ai_mod.carbon_explore.explore -- * Description: 
+2021-03-29 10:59:23,699 INFO     test_ai_mod.carbon_explore.explore -- * disable_bounceback: False
+2021-03-29 10:59:23,699 INFO     test_ai_mod.carbon_explore.explore -- ********************************************************************************
+2021-03-29 10:59:23,699 INFO     test_ai_mod.carbon_explore.explore -- getting walk queue
+2021-03-29 10:59:23,699 INFO     test_ai_mod.carbon_explore.explore_utils -- getting screen_elems
+2021-03-29 10:59:23,988 INFO     test_ai_mod.carbon_utils.scrape_utils -- Successfully collected web scrape.
+2021-03-29 10:59:23,991 INFO     test_ai_mod.carbon_explore.explore_utils -- filtering elems - 127
+2021-03-29 10:59:24,005 INFO     test_ai_mod.carbon_explore.explore_utils -- saving info - 112
+2021-03-29 10:59:24,005 INFO     test_ai_mod.carbon_explore.explore_utils -- saving core elems iter: 0, step 0, save_dir: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917
+2021-03-29 10:59:24,037 INFO     test_ai_mod.carbon_explore.explore -- got all screen info saved
+2021-03-29 10:59:24,037 INFO     test_ai_mod.carbon_explore.explore -- starting next action selection
+2021-03-29 10:59:24,037 INFO     test_ai_mod.carbon_explore.explore -- Determining active labels.
+2021-03-29 10:59:24,037 INFO     test_ai_mod.carbon_explore.explore -- Determining active models.
+2021-03-29 10:59:24,037 INFO     test_ai_mod.carbon_explore.explore -- Getting labels for the screen
+2021-03-29 10:59:24,037 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin loading configured modules
+2021-03-29 10:59:24,037 INFO     test_ai_mod.carbon_classifiers.carbon_classifier_v1.screen_classifier -- Loading ScreenClassifier
+2021-03-29 10:59:24,037 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Loading AppSpecificTemplateMatcher
+2021-03-29 10:59:24,038 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Loading NNClassifier
+2021-03-29 10:59:24,038 INFO     test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- Loading TemplateMatchingClassifier
+2021-03-29 10:59:24,038 WARNING  test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- No template director exists at /Users/bot/test_ai/templates
+2021-03-29 10:59:24,038 INFO     test_ai_mod.carbon_classifiers.http_classifier.http_classifier -- Loaded Http Classifier for ""
+2021-03-29 10:59:24,038 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin labeling elements
+2021-03-29 10:59:24,671 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Classifying screen with AppSpecificTemplateMatcher
+2021-03-29 10:59:24,672 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Classifying screen with NNClassifier
+2021-03-29 10:59:24,763 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- elem classified: lnk_input_param, score: 0.84
+2021-03-29 10:59:24,764 WARNING  test_ai_mod.carbon_classifiers.label_classifier_pipe -- A widget with the name "default" has been set for this step but no widget by that name has been configured.
+2021-03-29 10:59:24,786 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- End labeling elements: Time taken 0.747853040695 seconds
+2021-03-29 10:59:24,786 INFO     test_ai_mod.carbon_explore.explore -- completed getting labels for screen
+2021-03-29 10:59:24,786 INFO     test_ai_mod.carbon_explore.explore -- _testStepNextAction
+2021-03-29 10:59:24,787 INFO     test_ai_mod.carbon_explore.explore -- curr step num: 0
+2021-03-29 10:59:24,787 INFO     test_ai_mod.carbon_explore.explore -- handling test step type: Action
+2021-03-29 10:59:24,787 INFO     test_ai_mod.carbon_explore.explore -- found all labels
+2021-03-29 10:59:24,787 INFO     test_ai_mod.carbon_explore.explore -- found elem: {'human_readable': 'a_1424_8_91_40_a_00000000000000000000300036563ffe3ffe77fe73fe30400000000000000000_7e89fa2702b9a5b850d00703548bb004', 'hash': 'fRv55oL/CPREQkDjaP6KIw==\n', 'index': -1, 'text': 'Logout', 'text_hash': '7e89fa2702b9a5b850d00703548bb004', 'height': 40L, 'is_transformed': True, 'img_hash': '42764561153b19a58aeeee83a8538045', u'focused': False, u'clickable': True, 'human_hash': u'a_X1424_Y8_W91_H40', 'resource-id': '', 'password': False, 'class': 'a', u'checkable': False, u'scrollable': False, 'package': '', 'enabled': False, 'elem_shot_file_path': u'/Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmpZ/a_X1424_Y8_W91_H40.png', 'hier_level': 0, 'content-desc': '', 'width': 91L, 'tag_name': 'a', 'internal': {'elem_dict': {u'color': u'rgba(255, 255, 255, 0.5)', u'text': u'Logout', u'domLevel': 7, u'height': 40, u'tagName': u'a', u'cssClass': u'nav-link', u'width': 91, u'is-focused': False, u'fontSize': 16, u'font-weight': u'400', u'is-hidden': False, u'background-color': u'rgba(0, 0, 0, 0)', u'yPercent': 0.38853812530354537, u'xPercent': 74.1748046875, u'x': 1424, u'font-family': u'-apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"', u'class': u'a', u'name': u'', u'type': u'', u'value': u'', u'flags': {u'scrollable': False, u'focusable': True, u'enabled': False, u'focused': False, u'clickable': True, u'checkable': False}, u'y': 8, u'attributes': {u'href': u'login.html', u'class': u'nav-link'}, u'identifier': u''}, 'text': u'Logout', 'tag_name': u'a', 'location': {'y': 8, 'x': 1424}, 'size': {'width': 91, 'height': 40}}, 'transformed': True, 'behavior': '', u'focusable': True, 'y': 8L, 'x': 1424L}, input: tap
+2021-03-29 10:59:24,787 INFO     test_ai_mod.carbon_explore.explore -- action_elem {'human_readable': 'a_856_8_103_40_a_0000000000000000000040807bfe7ffe7ffe7ffe7f7e10000000000000000000_176fbd89809f96ddbdddcc32a2ceaa54', 'hash': 'GVpF4ym4wDi6vukDNWbceg==\n', 'index': -1, 'text': 'Input Param', 'text_hash': '176fbd89809f96ddbdddcc32a2ceaa54', 'height': 40L, 'is_transformed': True, 'img_hash': 'c018cbb78927e879c2ef7f79365d634c', u'focused': False, u'clickable': True, 'human_hash': u'a_X856_Y8_W103_H40', 'resource-id': '', 'password': False, 'class': 'a', u'checkable': False, u'scrollable': False, 'package': '', 'enabled': False, 'elem_shot_file_path': u'/Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmpZ/a_X856_Y8_W103_H40.png', 'hier_level': 0, 'content-desc': '', 'width': 103L, 'tag_name': 'a', 'internal': {'elem_dict': {u'color': u'rgba(255, 255, 255, 0.5)', u'text': u'Input Param', u'domLevel': 7, u'height': 40, u'tagName': u'a', u'cssClass': u'nav-link', u'width': 103, u'is-focused': False, u'fontSize': 16, u'font-weight': u'400', u'is-hidden': False, u'background-color': u'rgba(0, 0, 0, 0)', u'yPercent': 0.38853812530354537, u'xPercent': 44.597981770833336, u'x': 856, u'font-family': u'-apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"', u'class': u'a', u'name': u'', u'type': u'', u'value': u'', u'flags': {u'scrollable': False, u'focusable': True, u'enabled': False, u'focused': False, u'clickable': True, u'checkable': False}, u'y': 8, u'attributes': {u'href': u'inputparam.html', u'class': u'nav-link'}, u'identifier': u''}, 'text': u'Input Param', 'tag_name': u'a', 'location': {'y': 8, 'x': 856}, 'size': {'width': 103, 'height': 40}}, 'transformed': True, 'behavior': '', u'focusable': True, 'y': 8L, 'x': 856L}
+2021-03-29 10:59:24,788 INFO     test_ai_mod.carbon_explore.explore -- saving step
+2021-03-29 10:59:24,788 INFO     test_ai_mod.carbon_explore.explore_utils -- saving core elems iter: 0, step 0, save_dir: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tests/result_paths/Parameterization - Input - Step Parameterization - 8510840e-cc37-49d2-b75f-403dc41913d2
+2021-03-29 10:59:24,854 INFO     test_ai_mod.carbon_explore.result_storage -- LOG FILE PATH: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tests/result_paths/Parameterization - Input - Step Parameterization - 8510840e-cc37-49d2-b75f-403dc41913d2/iter_00000_step_00000_logs.txt
+2021-03-29 10:59:24,854 INFO     test_ai_mod.carbon_explore.result_storage -- ALL LOGS FILE PATH: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tests/result_paths/Parameterization - Input - Step Parameterization - 8510840e-cc37-49d2-b75f-403dc41913d2/iter_00000_step_-0001_logs.txt
+2021-03-29 10:59:24,861 INFO     test_ai_mod.carbon_explore.explore -- step saved
+2021-03-29 10:59:24,861 INFO     test_ai_mod.carbon_explore.explore -- Gesture: tap
+2021-03-29 10:59:24,861 INFO     test_ai_mod.carbon_explore.explore -- starting action
+2021-03-29 10:59:24,862 INFO     test_ai_mod.carbon_utils.action_utils -- action: Tap
+2021-03-29 10:59:24,862 INFO     test_ai_mod.carbon_utils.action_utils --    got action_elem: {'human_readable': 'a_856_8_103_40_a_0000000000000000000040807bfe7ffe7ffe7ffe7f7e10000000000000000000_176fbd89809f96ddbdddcc32a2ceaa54', 'hash': 'GVpF4ym4wDi6vukDNWbceg==\n', 'index': -1, 'text': 'Input Param', 'text_hash': '176fbd89809f96ddbdddcc32a2ceaa54', 'height': 40L, 'is_transformed': True, 'img_hash': 'c018cbb78927e879c2ef7f79365d634c', u'focused': False, u'clickable': True, 'human_hash': u'a_X856_Y8_W103_H40', 'resource-id': '', 'password': False, 'class': 'a', u'checkable': False, u'scrollable': False, 'package': '', 'enabled': False, 'elem_shot_file_path': u'/Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmpZ/a_X856_Y8_W103_H40.png', 'hier_level': 0, 'content-desc': '', 'width': 103L, 'tag_name': 'a', 'internal': {'elem_dict': {u'color': u'rgba(255, 255, 255, 0.5)', u'text': u'Input Param', u'domLevel': 7, u'height': 40, u'tagName': u'a', u'cssClass': u'nav-link', u'width': 103, u'is-focused': False, u'fontSize': 16, u'font-weight': u'400', u'is-hidden': False, u'background-color': u'rgba(0, 0, 0, 0)', u'yPercent': 0.38853812530354537, u'xPercent': 44.597981770833336, u'x': 856, u'font-family': u'-apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"', u'class': u'a', u'name': u'', u'type': u'', u'value': u'', u'flags': {u'scrollable': False, u'focusable': True, u'enabled': False, u'focused': False, u'clickable': True, u'checkable': False}, u'y': 8, u'attributes': {u'href': u'inputparam.html', u'class': u'nav-link'}, u'identifier': u''}, 'text': u'Input Param', 'tag_name': u'a', 'location': {'y': 8, 'x': 856}, 'size': {'width': 103, 'height': 40}}, 'transformed': True, 'behavior': '', u'focusable': True, 'y': 8L, 'x': 856L}
+2021-03-29 10:59:24,863 INFO     test_ai_mod.carbon_utils.action_utils --    sending action_elem: {'human_readable': 'a_856_8_103_40_a_0000000000000000000040807bfe7ffe7ffe7ffe7f7e10000000000000000000_176fbd89809f96ddbdddcc32a2ceaa54', 'hash': 'GVpF4ym4wDi6vukDNWbceg==\n', 'index': -1, 'text': 'Input Param', 'text_hash': '176fbd89809f96ddbdddcc32a2ceaa54', 'height': 40L, 'is_transformed': True, 'img_hash': 'c018cbb78927e879c2ef7f79365d634c', u'focused': False, u'clickable': True, 'human_hash': u'a_X856_Y8_W103_H40', 'resource-id': '', 'password': False, 'class': 'a', u'checkable': False, u'scrollable': False, 'package': '', 'enabled': False, 'elem_shot_file_path': u'/Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmpZ/a_X856_Y8_W103_H40.png', 'hier_level': 0, 'content-desc': '', 'width': 103L, 'tag_name': 'a', 'internal': {'elem_dict': {u'color': u'rgba(255, 255, 255, 0.5)', u'text': u'Input Param', u'domLevel': 7, u'height': 40, u'tagName': u'a', u'cssClass': u'nav-link', u'width': 103, u'is-focused': False, u'fontSize': 16, u'font-weight': u'400', u'is-hidden': False, u'background-color': u'rgba(0, 0, 0, 0)', u'yPercent': 0.38853812530354537, u'xPercent': 44.597981770833336, u'x': 856, u'font-family': u'-apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"', u'class': u'a', u'name': u'', u'type': u'', u'value': u'', u'flags': {u'scrollable': False, u'focusable': True, u'enabled': False, u'focused': False, u'clickable': True, u'checkable': False}, u'y': 8, u'attributes': {u'href': u'inputparam.html', u'class': u'nav-link'}, u'identifier': u''}, 'text': u'Input Param', 'tag_name': u'a', 'location': {'y': 8, 'x': 856}, 'size': {'width': 103, 'height': 40}}, 'transformed': True, 'behavior': '', u'focusable': True, 'y': 8L, 'x': 856L}
+2021-03-29 10:59:24,863 INFO     test_ai_mod.carbon_utils.action_utils --    sending cx: 907 cy: 28
+2021-03-29 10:59:24,863 INFO     test_ai_mod.carbon_automation.driver -- Issuing a regular click
+2021-03-29 10:59:25,245 INFO     test_ai_mod.carbon_explore.explore -- DOM stability timing: pre
+2021-03-29 10:59:25,245 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:26,122 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:26,279 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:26,699 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:26,843 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:27,269 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:27,419 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:27,837 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:27,989 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:28,423 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:28,573 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:28,996 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:29,038 INFO     test_ai_mod.carbon_actions.carbon_actions -- Seen the same screen the max amount (5)
+2021-03-29 10:59:29,038 INFO     test_ai_mod.carbon_actions.carbon_actions -- sources aren't equal, clearing
+2021-03-29 10:59:29,039 INFO     test_ai_mod.carbon_explore.explore -- DOM stability timing: post
+2021-03-29 10:59:29,039 INFO     test_ai_mod.carbon_explore.explore -- Extra sleep: 1.000
+2021-03-29 10:59:30,049 INFO     test_ai_mod.carbon_explore.explore -- step: 0 complete
+2021-03-29 10:59:30,050 INFO     test_ai_mod.carbon_explore.explore -- ********************************************************************************
+2021-03-29 10:59:30,050 INFO     test_ai_mod.carbon_explore.explore -- * TIMEOUT: None
+2021-03-29 10:59:30,051 INFO     test_ai_mod.carbon_explore.explore -- * beginning step: 1, test completed: False, total steps: 10
+2021-03-29 10:59:30,051 INFO     test_ai_mod.carbon_explore.explore -- * Description: Enter Email 0
+2021-03-29 10:59:30,051 INFO     test_ai_mod.carbon_explore.explore -- * disable_bounceback: False
+2021-03-29 10:59:30,051 INFO     test_ai_mod.carbon_explore.explore -- ********************************************************************************
+2021-03-29 10:59:30,051 INFO     test_ai_mod.carbon_explore.explore -- getting walk queue
+2021-03-29 10:59:30,051 INFO     test_ai_mod.carbon_explore.explore_utils -- getting screen_elems
+2021-03-29 10:59:30,265 INFO     test_ai_mod.carbon_utils.scrape_utils -- Successfully collected web scrape.
+2021-03-29 10:59:30,267 INFO     test_ai_mod.carbon_explore.explore_utils -- filtering elems - 71
+2021-03-29 10:59:30,282 INFO     test_ai_mod.carbon_explore.explore_utils -- saving info - 65
+2021-03-29 10:59:30,282 INFO     test_ai_mod.carbon_explore.explore_utils -- saving core elems iter: 0, step 1, save_dir: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917
+2021-03-29 10:59:30,299 INFO     test_ai_mod.carbon_explore.explore -- got all screen info saved
+2021-03-29 10:59:30,300 INFO     test_ai_mod.carbon_explore.explore -- starting next action selection
+2021-03-29 10:59:30,300 INFO     test_ai_mod.carbon_explore.explore -- Determining active labels.
+2021-03-29 10:59:30,300 INFO     test_ai_mod.carbon_explore.explore -- Determining active models.
+2021-03-29 10:59:30,300 INFO     test_ai_mod.carbon_explore.explore -- Getting labels for the screen
+2021-03-29 10:59:30,300 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin loading configured modules
+2021-03-29 10:59:30,300 INFO     test_ai_mod.carbon_classifiers.carbon_classifier_v1.screen_classifier -- Loading ScreenClassifier
+2021-03-29 10:59:30,300 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Loading AppSpecificTemplateMatcher
+2021-03-29 10:59:30,300 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Loading NNClassifier
+2021-03-29 10:59:30,300 INFO     test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- Loading TemplateMatchingClassifier
+2021-03-29 10:59:30,301 WARNING  test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- No template director exists at /Users/bot/test_ai/templates
+2021-03-29 10:59:30,301 INFO     test_ai_mod.carbon_classifiers.http_classifier.http_classifier -- Loaded Http Classifier for ""
+2021-03-29 10:59:30,301 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin labeling elements
+2021-03-29 10:59:30,679 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Classifying screen with AppSpecificTemplateMatcher
+2021-03-29 10:59:30,679 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Classifying screen with NNClassifier
+2021-03-29 10:59:30,738 WARNING  test_ai_mod.carbon_classifiers.label_classifier_pipe -- A widget with the name "default" has been set for this step but no widget by that name has been configured.
+2021-03-29 10:59:30,753 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- End labeling elements: Time taken 0.45223402977 seconds
+2021-03-29 10:59:30,753 INFO     test_ai_mod.carbon_explore.explore -- completed getting labels for screen
+2021-03-29 10:59:30,754 INFO     test_ai_mod.carbon_explore.explore -- _testStepNextAction
+2021-03-29 10:59:30,754 INFO     test_ai_mod.carbon_explore.explore -- curr step num: 1
+2021-03-29 10:59:30,754 INFO     test_ai_mod.carbon_explore.explore -- handling test step type: Action
+2021-03-29 10:59:30,754 INFO     test_ai_mod.carbon_explore.explore -- test_l: John not in set([])
+2021-03-29 10:59:30,754 ERROR    test_ai_mod.carbon_test_case.test_utils -- ******************************************************************
+2021-03-29 10:59:30,754 ERROR    test_ai_mod.carbon_test_case.test_utils -- * TEST FAILURE: matches not found in screen labels, failing test *
+2021-03-29 10:59:30,754 ERROR    test_ai_mod.carbon_test_case.test_utils -- ******************************************************************
+2021-03-29 10:59:30,754 INFO     test_ai_mod.carbon_explore.explore -- Unable to find label, waiting for DOM stability then retrying...
+2021-03-29 10:59:30,754 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:31,179 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:31,331 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:31,763 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:31,908 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:32,331 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:32,483 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:32,912 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:33,064 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:33,480 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:33,632 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:34,046 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:34,087 INFO     test_ai_mod.carbon_actions.carbon_actions -- Seen the same screen the max amount (5)
+2021-03-29 10:59:34,087 INFO     test_ai_mod.carbon_actions.carbon_actions -- sources aren't equal, clearing
+2021-03-29 10:59:34,087 INFO     test_ai_mod.carbon_explore.explore_utils -- getting screen_elems
+2021-03-29 10:59:34,280 INFO     test_ai_mod.carbon_utils.scrape_utils -- Successfully collected web scrape.
+2021-03-29 10:59:34,281 INFO     test_ai_mod.carbon_explore.explore_utils -- filtering elems - 71
+2021-03-29 10:59:34,296 INFO     test_ai_mod.carbon_explore.explore_utils -- saving info - 65
+2021-03-29 10:59:34,296 INFO     test_ai_mod.carbon_explore.explore_utils -- saving core elems iter: 0, step 1, save_dir: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917
+2021-03-29 10:59:34,313 INFO     test_ai_mod.carbon_explore.explore -- got all screen info saved
+2021-03-29 10:59:34,313 INFO     test_ai_mod.carbon_explore.explore -- starting next action selection
+2021-03-29 10:59:34,313 INFO     test_ai_mod.carbon_explore.explore -- Determining active labels.
+2021-03-29 10:59:34,313 INFO     test_ai_mod.carbon_explore.explore -- Determining active models.
+2021-03-29 10:59:34,313 INFO     test_ai_mod.carbon_explore.explore -- Getting labels for the screen
+2021-03-29 10:59:34,313 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin loading configured modules
+2021-03-29 10:59:34,314 INFO     test_ai_mod.carbon_classifiers.carbon_classifier_v1.screen_classifier -- Loading ScreenClassifier
+2021-03-29 10:59:34,314 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Loading AppSpecificTemplateMatcher
+2021-03-29 10:59:34,314 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Loading NNClassifier
+2021-03-29 10:59:34,314 INFO     test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- Loading TemplateMatchingClassifier
+2021-03-29 10:59:34,314 WARNING  test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- No template director exists at /Users/bot/test_ai/templates
+2021-03-29 10:59:34,314 INFO     test_ai_mod.carbon_classifiers.http_classifier.http_classifier -- Loaded Http Classifier for ""
+2021-03-29 10:59:34,314 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin labeling elements
+2021-03-29 10:59:34,697 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Classifying screen with AppSpecificTemplateMatcher
+2021-03-29 10:59:34,698 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Classifying screen with NNClassifier
+2021-03-29 10:59:34,753 WARNING  test_ai_mod.carbon_classifiers.label_classifier_pipe -- A widget with the name "default" has been set for this step but no widget by that name has been configured.
+2021-03-29 10:59:34,768 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- End labeling elements: Time taken 0.45392203331 seconds
+2021-03-29 10:59:34,768 INFO     test_ai_mod.carbon_explore.explore -- completed getting labels for screen
+2021-03-29 10:59:34,769 INFO     test_ai_mod.carbon_explore.explore -- _testStepNextAction
+2021-03-29 10:59:34,769 INFO     test_ai_mod.carbon_explore.explore -- curr step num: 1
+2021-03-29 10:59:34,769 INFO     test_ai_mod.carbon_explore.explore -- handling test step type: Action
+2021-03-29 10:59:34,769 INFO     test_ai_mod.carbon_explore.explore -- test_l: John not in set([])
+2021-03-29 10:59:34,769 ERROR    test_ai_mod.carbon_test_case.test_utils -- ******************************************************************
+2021-03-29 10:59:34,769 ERROR    test_ai_mod.carbon_test_case.test_utils -- * TEST FAILURE: matches not found in screen labels, failing test *
+2021-03-29 10:59:34,769 ERROR    test_ai_mod.carbon_test_case.test_utils -- ******************************************************************
+2021-03-29 10:59:34,769 INFO     test_ai_mod.carbon_explore.explore -- Unable to find label, waiting for DOM stability then retrying...
+2021-03-29 10:59:34,770 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:35,202 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:35,353 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:35,784 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:35,933 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:36,349 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:36,499 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:36,917 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:37,066 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:37,488 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:37,637 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:38,069 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:38,110 INFO     test_ai_mod.carbon_actions.carbon_actions -- Seen the same screen the max amount (5)
+2021-03-29 10:59:38,110 INFO     test_ai_mod.carbon_actions.carbon_actions -- incrementing source count to: 1
+2021-03-29 10:59:38,111 INFO     test_ai_mod.carbon_explore.explore_utils -- getting screen_elems
+2021-03-29 10:59:38,298 INFO     test_ai_mod.carbon_utils.scrape_utils -- Successfully collected web scrape.
+2021-03-29 10:59:38,300 INFO     test_ai_mod.carbon_explore.explore_utils -- filtering elems - 71
+2021-03-29 10:59:38,314 INFO     test_ai_mod.carbon_explore.explore_utils -- saving info - 65
+2021-03-29 10:59:38,314 INFO     test_ai_mod.carbon_explore.explore_utils -- saving core elems iter: 0, step 1, save_dir: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917
+2021-03-29 10:59:38,331 INFO     test_ai_mod.carbon_explore.explore -- got all screen info saved
+2021-03-29 10:59:38,331 INFO     test_ai_mod.carbon_explore.explore -- starting next action selection
+2021-03-29 10:59:38,331 INFO     test_ai_mod.carbon_explore.explore -- Determining active labels.
+2021-03-29 10:59:38,331 INFO     test_ai_mod.carbon_explore.explore -- Determining active models.
+2021-03-29 10:59:38,331 INFO     test_ai_mod.carbon_explore.explore -- Getting labels for the screen
+2021-03-29 10:59:38,332 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin loading configured modules
+2021-03-29 10:59:38,332 INFO     test_ai_mod.carbon_classifiers.carbon_classifier_v1.screen_classifier -- Loading ScreenClassifier
+2021-03-29 10:59:38,332 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Loading AppSpecificTemplateMatcher
+2021-03-29 10:59:38,332 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Loading NNClassifier
+2021-03-29 10:59:38,332 INFO     test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- Loading TemplateMatchingClassifier
+2021-03-29 10:59:38,332 WARNING  test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- No template director exists at /Users/bot/test_ai/templates
+2021-03-29 10:59:38,332 INFO     test_ai_mod.carbon_classifiers.http_classifier.http_classifier -- Loaded Http Classifier for ""
+2021-03-29 10:59:38,332 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin labeling elements
+2021-03-29 10:59:38,692 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Classifying screen with AppSpecificTemplateMatcher
+2021-03-29 10:59:38,692 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Classifying screen with NNClassifier
+2021-03-29 10:59:38,747 WARNING  test_ai_mod.carbon_classifiers.label_classifier_pipe -- A widget with the name "default" has been set for this step but no widget by that name has been configured.
+2021-03-29 10:59:38,763 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- End labeling elements: Time taken 0.43110704422 seconds
+2021-03-29 10:59:38,764 INFO     test_ai_mod.carbon_explore.explore -- completed getting labels for screen
+2021-03-29 10:59:38,764 INFO     test_ai_mod.carbon_explore.explore -- _testStepNextAction
+2021-03-29 10:59:38,764 INFO     test_ai_mod.carbon_explore.explore -- curr step num: 1
+2021-03-29 10:59:38,764 INFO     test_ai_mod.carbon_explore.explore -- handling test step type: Action
+2021-03-29 10:59:38,764 INFO     test_ai_mod.carbon_explore.explore -- test_l: John not in set([])
+2021-03-29 10:59:38,764 ERROR    test_ai_mod.carbon_test_case.test_utils -- ******************************************************************
+2021-03-29 10:59:38,764 ERROR    test_ai_mod.carbon_test_case.test_utils -- * TEST FAILURE: matches not found in screen labels, failing test *
+2021-03-29 10:59:38,764 ERROR    test_ai_mod.carbon_test_case.test_utils -- ******************************************************************
+2021-03-29 10:59:38,764 INFO     test_ai_mod.carbon_explore.explore -- Unable to find label, waiting for DOM stability then retrying...
+2021-03-29 10:59:38,765 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:39,190 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:39,332 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:39,760 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:39,906 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:40,323 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:40,466 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:40,891 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:41,032 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:41,460 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:41,603 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:42,027 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:42,068 INFO     test_ai_mod.carbon_actions.carbon_actions -- Seen the same screen the max amount (5)
+2021-03-29 10:59:42,068 INFO     test_ai_mod.carbon_actions.carbon_actions -- incrementing source count to: 2
+2021-03-29 10:59:42,068 INFO     test_ai_mod.carbon_explore.explore_utils -- getting screen_elems
+2021-03-29 10:59:42,249 INFO     test_ai_mod.carbon_utils.scrape_utils -- Successfully collected web scrape.
+2021-03-29 10:59:42,251 INFO     test_ai_mod.carbon_explore.explore_utils -- filtering elems - 71
+2021-03-29 10:59:42,266 INFO     test_ai_mod.carbon_explore.explore_utils -- saving info - 65
+2021-03-29 10:59:42,266 INFO     test_ai_mod.carbon_explore.explore_utils -- saving core elems iter: 0, step 1, save_dir: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917
+2021-03-29 10:59:42,283 INFO     test_ai_mod.carbon_explore.explore -- got all screen info saved
+2021-03-29 10:59:42,283 INFO     test_ai_mod.carbon_explore.explore -- starting next action selection
+2021-03-29 10:59:42,284 INFO     test_ai_mod.carbon_explore.explore -- Determining active labels.
+2021-03-29 10:59:42,284 INFO     test_ai_mod.carbon_explore.explore -- Determining active models.
+2021-03-29 10:59:42,284 INFO     test_ai_mod.carbon_explore.explore -- Getting labels for the screen
+2021-03-29 10:59:42,284 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin loading configured modules
+2021-03-29 10:59:42,284 INFO     test_ai_mod.carbon_classifiers.carbon_classifier_v1.screen_classifier -- Loading ScreenClassifier
+2021-03-29 10:59:42,284 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Loading AppSpecificTemplateMatcher
+2021-03-29 10:59:42,284 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Loading NNClassifier
+2021-03-29 10:59:42,284 INFO     test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- Loading TemplateMatchingClassifier
+2021-03-29 10:59:42,285 WARNING  test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- No template director exists at /Users/bot/test_ai/templates
+2021-03-29 10:59:42,285 INFO     test_ai_mod.carbon_classifiers.http_classifier.http_classifier -- Loaded Http Classifier for ""
+2021-03-29 10:59:42,285 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin labeling elements
+2021-03-29 10:59:42,660 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Classifying screen with AppSpecificTemplateMatcher
+2021-03-29 10:59:42,660 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Classifying screen with NNClassifier
+2021-03-29 10:59:42,716 WARNING  test_ai_mod.carbon_classifiers.label_classifier_pipe -- A widget with the name "default" has been set for this step but no widget by that name has been configured.
+2021-03-29 10:59:42,731 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- End labeling elements: Time taken 0.44594502449 seconds
+2021-03-29 10:59:42,731 INFO     test_ai_mod.carbon_explore.explore -- completed getting labels for screen
+2021-03-29 10:59:42,731 INFO     test_ai_mod.carbon_explore.explore -- _testStepNextAction
+2021-03-29 10:59:42,731 INFO     test_ai_mod.carbon_explore.explore -- curr step num: 1
+2021-03-29 10:59:42,731 INFO     test_ai_mod.carbon_explore.explore -- handling test step type: Action
+2021-03-29 10:59:42,732 INFO     test_ai_mod.carbon_explore.explore -- test_l: John not in set([])
+2021-03-29 10:59:42,732 ERROR    test_ai_mod.carbon_test_case.test_utils -- ******************************************************************
+2021-03-29 10:59:42,732 ERROR    test_ai_mod.carbon_test_case.test_utils -- * TEST FAILURE: matches not found in screen labels, failing test *
+2021-03-29 10:59:42,732 ERROR    test_ai_mod.carbon_test_case.test_utils -- ******************************************************************
+2021-03-29 10:59:42,732 INFO     test_ai_mod.carbon_explore.explore -- Unable to find label, waiting for DOM stability then retrying...
+2021-03-29 10:59:42,732 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:43,167 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:43,317 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:43,749 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:43,898 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:44,338 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:44,482 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:44,929 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:45,073 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:45,500 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:45,648 INFO     test_ai_mod.carbon_explore.explore_utils -- saving screenshot
+2021-03-29 10:59:46,067 INFO     test_ai_mod.carbon_explore.explore_utils -- scn_shot_file_path: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tmp/runtime_labeling_screen.png
+2021-03-29 10:59:46,110 INFO     test_ai_mod.carbon_actions.carbon_actions -- Seen the same screen the max amount (5)
+2021-03-29 10:59:46,110 INFO     test_ai_mod.carbon_actions.carbon_actions -- incrementing source count to: 3
+2021-03-29 10:59:46,110 INFO     test_ai_mod.carbon_explore.explore_utils -- getting screen_elems
+2021-03-29 10:59:46,306 INFO     test_ai_mod.carbon_utils.scrape_utils -- Successfully collected web scrape.
+2021-03-29 10:59:46,307 INFO     test_ai_mod.carbon_explore.explore_utils -- filtering elems - 71
+2021-03-29 10:59:46,322 INFO     test_ai_mod.carbon_explore.explore_utils -- saving info - 65
+2021-03-29 10:59:46,323 INFO     test_ai_mod.carbon_explore.explore_utils -- saving core elems iter: 0, step 1, save_dir: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917
+2021-03-29 10:59:46,340 INFO     test_ai_mod.carbon_explore.explore -- got all screen info saved
+2021-03-29 10:59:46,340 INFO     test_ai_mod.carbon_explore.explore -- starting next action selection
+2021-03-29 10:59:46,340 INFO     test_ai_mod.carbon_explore.explore -- Determining active labels.
+2021-03-29 10:59:46,340 INFO     test_ai_mod.carbon_explore.explore -- Determining active models.
+2021-03-29 10:59:46,340 INFO     test_ai_mod.carbon_explore.explore -- Getting labels for the screen
+2021-03-29 10:59:46,340 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin loading configured modules
+2021-03-29 10:59:46,340 INFO     test_ai_mod.carbon_classifiers.carbon_classifier_v1.screen_classifier -- Loading ScreenClassifier
+2021-03-29 10:59:46,341 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Loading AppSpecificTemplateMatcher
+2021-03-29 10:59:46,341 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Loading NNClassifier
+2021-03-29 10:59:46,341 INFO     test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- Loading TemplateMatchingClassifier
+2021-03-29 10:59:46,341 WARNING  test_ai_mod.carbon_classifiers.template_matching.template_matching_classifier -- No template director exists at /Users/bot/test_ai/templates
+2021-03-29 10:59:46,341 INFO     test_ai_mod.carbon_classifiers.http_classifier.http_classifier -- Loaded Http Classifier for ""
+2021-03-29 10:59:46,341 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- Begin labeling elements
+2021-03-29 10:59:46,764 INFO     test_ai_mod.carbon_classifiers.template_matching.app_specific_template_matcher -- Classifying screen with AppSpecificTemplateMatcher
+2021-03-29 10:59:46,765 INFO     test_ai_mod.carbon_classifiers.perceptual.nn_classifier -- Classifying screen with NNClassifier
+2021-03-29 10:59:46,829 WARNING  test_ai_mod.carbon_classifiers.label_classifier_pipe -- A widget with the name "default" has been set for this step but no widget by that name has been configured.
+2021-03-29 10:59:46,845 INFO     test_ai_mod.carbon_classifiers.label_classifier_pipe -- End labeling elements: Time taken 0.503551006317 seconds
+2021-03-29 10:59:46,845 INFO     test_ai_mod.carbon_explore.explore -- completed getting labels for screen
+2021-03-29 10:59:46,845 INFO     test_ai_mod.carbon_explore.explore -- _testStepNextAction
+2021-03-29 10:59:46,845 INFO     test_ai_mod.carbon_explore.explore -- curr step num: 1
+2021-03-29 10:59:46,845 INFO     test_ai_mod.carbon_explore.explore -- handling test step type: Action
+2021-03-29 10:59:46,845 INFO     test_ai_mod.carbon_explore.explore -- test_l: John not in set([])
+2021-03-29 10:59:46,846 ERROR    test_ai_mod.carbon_test_case.test_utils -- ******************************************************************
+2021-03-29 10:59:46,846 ERROR    test_ai_mod.carbon_test_case.test_utils -- * TEST FAILURE: matches not found in screen labels, failing test *
+2021-03-29 10:59:46,846 ERROR    test_ai_mod.carbon_test_case.test_utils -- ******************************************************************
+2021-03-29 10:59:46,846 INFO     test_ai_mod.carbon_explore.explore -- action_elem None
+2021-03-29 10:59:46,846 INFO     test_ai_mod.carbon_explore.explore -- saving step
+2021-03-29 10:59:46,846 INFO     test_ai_mod.carbon_explore.explore_utils -- saving core elems iter: 0, step 1, save_dir: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tests/result_paths/Parameterization - Input - Step Parameterization - 8510840e-cc37-49d2-b75f-403dc41913d2
+2021-03-29 10:59:46,885 INFO     test_ai_mod.carbon_explore.result_storage -- LOG FILE PATH: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tests/result_paths/Parameterization - Input - Step Parameterization - 8510840e-cc37-49d2-b75f-403dc41913d2/iter_00000_step_00001_logs.txt
+2021-03-29 10:59:46,885 INFO     test_ai_mod.carbon_explore.result_storage -- ALL LOGS FILE PATH: /Users/bot/test_ai/apps/60f11fb5-ea80-44d0-a9a5-6ae2bbdb1a33/builds/34aaaeb4-52c5-4fe3-b687-5a99e729419d/test_runs/20210329105917/tests/result_paths/Parameterization - Input - Step Parameterization - 8510840e-cc37-49d2-b75f-403dc41913d2/iter_00000_step_-0001_logs.txt
+2021-03-29 10:59:46,891 INFO     test_ai_mod.carbon_explore.explore -- step saved
+2021-03-29 10:59:46,891 INFO     test_ai_mod.carbon_explore.explore -- Gesture: TEST_COMPLETE
+2021-03-29 10:59:46,891 INFO     test_ai_mod.carbon_explore.explore -- gesture was TEST_COMPLETE
+2021-03-29 10:59:46,894 INFO     test_ai_mod.carbon_explore.explore -- ********************************************************************************
+2021-03-29 10:59:46,894 INFO     test_ai_mod.carbon_explore.explore -- * TIMEOUT: None
+2021-03-29 10:59:46,894 INFO     test_ai_mod.carbon_explore.explore -- * beginning step: 1, test completed: True, total steps: 10
+2021-03-29 10:59:46,894 INFO     test_ai_mod.carbon_explore.explore -- * Description: Enter Email 0
+2021-03-29 10:59:46,894 INFO     test_ai_mod.carbon_explore.explore -- * disable_bounceback: False
+2021-03-29 10:59:46,894 INFO     test_ai_mod.carbon_explore.explore -- ********************************************************************************
+2021-03-29 10:59:46,894 INFO     test_ai_mod.carbon_explore.explore -- test_complete!!
+2021-03-29 10:59:46,894 INFO     test_ai_mod.carbon_explore.explore -- test complete, concluding walk
+2021-03-29 10:59:46,894 INFO     test_ai_mod.carbon_explore.explore -- performing post-walk cleanup
+2021-03-29 10:59:46,894 INFO     test_ai_mod.carbon_utils.simulator_tools -- performing post-test cleanup
+2021-03-29 10:59:46,894 INFO     test_ai_mod.carbon_utils.simulator_tools -- calling driver.quit
+2021-03-29 10:59:46,981 INFO     test_ai_mod.carbon_explore.explore -- iteration completed: 0
+2021-03-29 10:59:46,982 INFO     test_ai_mod.carbon_tasks.regress_app_task -- test executed successfully
+2021-03-29 10:59:46,982 INFO     test_ai_mod.carbon_tasks.regress_app_task -- Removing threaded log file handler for test run.
